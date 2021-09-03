@@ -11,6 +11,11 @@ public class HRTeam extends ITDepartment {
     }
 
     public static void main(String[] args){
+        /*
+        Can you create an instance object of the ITDepartment -> NO: Error because ITDepartment is an abstract class
+        Employee newIT = new ITDepartment();
+         */
+
         Employee newEmployee= new HRTeam();
         newEmployee.getWelcomeKits();
         newEmployee.workAsProgrammer();
